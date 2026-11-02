@@ -1,0 +1,13 @@
+{
+  "name": "trend0x",
+  "displayName": "Trend0x",
+  "version": "3.5.0",
+  "description": "AI trading terminal: market data, backtests, strategies and portfolio for crypto and stock exchanges.",
+  "author": { "name": "Trend0x", "email": "joe0x@trend0x.com", "url": "https://trend0x.com" },
+  "homepage": "https://trend0x.com",
+  "repository": "https://github.com/trend0xai/trend0x-mcp",
+  "license": "MIT",
+  "logo": "logo.png",
+  "keywords": ["trading", "crypto", "stocks", "backtesting", "portfolio", "mcp"],
+  "mcpServers": "./mcp.json"
+}

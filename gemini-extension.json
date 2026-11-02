@@ -1,0 +1,13 @@
+{
+  "name": "trend0x",
+  "version": "3.5.0",
+  "description": "Trend0x AI trading terminal: market data, backtests, strategies and portfolio for crypto and stocks.",
+  "mcpServers": {
+    "trend0x": {
+      "httpUrl": "https://app.trend0x.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer $TREND0X_AGENT_TOKEN"
+      }
+    }
+  }
+}

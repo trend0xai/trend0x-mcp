@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.trend0xai/trend0x",
+  "title": "Trend0x",
+  "description": "AI trading terminal: market data, backtests, strategies and portfolio for crypto and stock exchanges",
+  "version": "3.5.0",
+  "websiteUrl": "https://trend0x.com",
+  "icons": [
+    {
+      "src": "https://app.trend0x.com/trend0x-favicon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.trend0x.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer agent token from Trend0x Profile settings, e.g. \"Bearer <AGENT_TOKEN>\"",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {agent_token}",
+          "variables": {
+            "agent_token": {
+              "description": "Your Trend0x agent token (Profile settings)",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "sse",
+      "url": "https://app.trend0x.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer agent token from Trend0x Profile settings, e.g. \"Bearer <AGENT_TOKEN>\"",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {agent_token}",
+          "variables": {
+            "agent_token": {
+              "description": "Your Trend0x agent token (Profile settings)",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/trend0xai/trend0x-mcp",
+    "source": "github"
+  }
+}

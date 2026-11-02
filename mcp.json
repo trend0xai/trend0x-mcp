@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "trend0x": {
+      "url": "https://app.trend0x.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:TREND0X_AGENT_TOKEN}"
+      }
+    }
+  }
+}
