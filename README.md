@@ -130,6 +130,7 @@ gemini extensions install https://github.com/trend0xai/trend0x-mcp
 | `server.json` | Official MCP Registry metadata |
 | `mcp.json`, `.cursor-plugin/plugin.json` | Cursor plugin config |
 | `gemini-extension.json` | Gemini CLI extension manifest |
+| `llms-install.md` | Step-by-step install guide for AI agents (Cline etc.) |
 | `logo.png` | 400×400 logo |
 
 ## Links
